@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(166, 0, 255);
+}
+
+.wrapperSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.AaA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(166, 0, 255);
+    color: rgb(192, 0, 0);
+    font-size: 30pt;
+}
+.OutputElement {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    width: min-content;
+    height: auto;
+    padding: 10px;
+}
+
+.OutputElement div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.OutputElement div>h3:nth-of-type(3) {
+    color: aqua;
+}
+
+
+.OutputElement div h3 span {
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
